@@ -23,3 +23,10 @@ void SecondArrayWithIF(string[] array1, string[] array2)
     }
 }
 Console.WriteLine ("Написать программу, которая из имеющегося массива строк формирует массив из строк, длина которых меньше либо равна 3 символам.");
+Console.WriteLine ("Надо: [hello, 2 , world , :-)]");
+string[] array1 = new string[4] {"hello", "2" , "world" , ":-)"} ;
+string[] array2 = new string[array1.Length];
+
+
+SecondArrayWithIF(array1, array2);
+PrintArray(array2);
